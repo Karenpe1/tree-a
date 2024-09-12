@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6cd5d0e415.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Helvetica&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Tree-a</title>
+</head>
+<body>
+        <nav class="navbar navbar-expand-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="img/treea-logo.png" alt="" width="90" height="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"><i class="fa-solid fa-bars"></i></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav" >
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link"  href="#seccion-servicio">Servicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#seccion-testimonio">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-form">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- carrusel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item item active">
+                    <img src="img/piscina 1.jpg" class="d-block w-100" alt="...">
+                    <div class="call-to-action">
+                        <h2>PISCINAS DE ENSUEÑO</h2>
+                        <p>Diseñamos y construimos piscinas personalizadas que combinan estética, innovación y calidad para crear un espacio de ensueño.</p>
+                        <a href="https://tree-a.com.co/">Habla con un Experto <i class="fa-solid fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="carousel-item item">
+                    <img src="img/piscina 2.jpg" class="d-block w-100" alt="...">
+                    <div class="call-to-action">
+                        <h2>PISCINAS DE ENSUEÑO</h2>                       
+                        <p> creamos espacios únicos adaptados a tus necesidades y estilo, con diseño de piscinas que superan todas las expectativas.</p>
+                        <a href="https://tree-a.com.co/">Habla con un Experto <i class="fa-solid fa-arrow-right"></i> </a>
+                    </div>
+                </div>
+            </div>
+                <button class="carousel-control-prev before" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next after" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+        </div>
+   <!-- imagenes de piscina-->
+        <section class="pool">
+            <div class="innovation">
+                <h2>INNOVACIÓN Y ELEGANCIA EN CADA PROYECTO</h2>
+                <h1>TRANSFORMAMOS ESPACIOS EN OASIS DE LUJO</h1>
+                <p>Nos especializamos en el diseño y construcción de piscinas que combinan estética y funcionalidad. 
+                    Cada proyecto está cuidadosamente planificado para adaptarse a tu estilo de vida, utilizando materiales 
+                    de primera calidad y tecnología avanzada para garantizar resultados duraderos y espectaculares. 
+                    Transformamos cualquier espacio en un oasis personal donde el lujo y la comodidad se unen</p>
+            </div>
+            <div class="pool-container">
+                <div class="pool-card active" id="item1">
+                    <img src="img/modelo 1.jpg" alt="">
+                    <div class="detail">
+                        <h3><i class="fa-solid fa-ruler-combined"></i>43m2</h3>
+                        <h3><i class="fa-regular fa-square"></i>43m3</h3>
+                    </div>
+                </div>
+                <div class="pool-card" id="item2">
+                    <img src="img/modelo 2.jpg"  alt="">
+                    <div class="detail">
+                        <h3><i class="fa-solid fa-ruler-combined"></i>43m2</h3>
+                        <h3><i class="fa-regular fa-square"></i>43m3</h3>
+                    </div>
+                </div>
+                <div class="pool-card" id="item3">
+                    <img src="img/modelo 3.jpg" alt="">
+                    <div class="detail">
+                        <h3><i class="fa-solid fa-ruler-combined"></i>43m2</h3>
+                        <h3><i class="fa-regular fa-square"></i>43m3</h3>
+                    </div>
+                </div>
+                <div class="pool-card" id="item3">
+                    <img src="img/modelo 4.jpg" alt="">
+                    <div class="detail">
+                        <h3><i class="fa-solid fa-ruler-combined"></i>43m2</h3>
+                        <h3><i class="fa-regular fa-square"></i>43m3</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- servicios-->
+    <div class="container-fluid services" id="seccion-servicio">
+        <div class="row">
+            <div class="col-12 col-md-3 col-lg-4 info-section container">
+                <h2>SOLUCIONES A TU MEDIDA</h2>
+                <h3>DISEÑO Y CONSTRUCCION DE PISICNAS</h3>
+                <p>En tree-a, nos especializamos en la creación de piscinas que reflejan tu estilo de vida, utilizando materiales de alta calidad 
+                    y diseños innovadores. Desde la planificación hasta la construcción y mantenimiento, ofrecemos un servicio integral 
+                    para que tu piscina sea un reflejo de excelencia y confort.</p>
+            </div>    
+            <div class="col-12 col-md-8 col-lg-7">
+                <div id="carouselExampleControls" class="carousel slide slide1" data-bs-ride="carousel">
+                    <div class="carousel-inner container-cards">
+                        <div class="carousel-item item1 active">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="card">
+                                        <img src="img/diseño.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Diseño Personalizado</h5>
+                                            <p class="card-text">Nuestro equipo de expertos en diseño trabaja contigo para crear una piscina 
+                                                única y adaptada a tu espacio, estilo y necesidades. Desde piscinas modernas hasta estilos clásicos,
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="card">
+                                        <img src="img/construccion.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Construcción de Piscinas</h5>
+                                            <p class="card-text">Nos encargamos de todo el proceso de construcción de tu piscina, garantizando 
+                                                materiales de alta calidad, resistencia, bajo mantenimiento y un equipo especializado. </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item item1">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="card">
+                                        <img src="img/remodelacion.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title"> Remodelación de Piscinas</h5>
+                                            <p class="card-text">Nuestro equipo Transforma tu piscina existente en un espacio moderno y funcional. 
+                                                Desde renovaciones estructurales hasta actualizaciones estéticas.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="card">
+                                        <img src="img/mantenimiento1.jpg" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Mantenimiento y Reparación</h5>
+                                            <p class="card-text">Ofrecemos un servicio de mantenimiento y reparación para garantizar que 
+                                                tu piscina siempre esté en óptimas condiciones, nos aseguramos de que disfrutes sin preocupaciones</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-controls">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      
+    <!-- testimonios -->
+     <div class="testimonios" id="seccion-testimonio">
+        <h2>TESTIMONIOS</h2>
+        <h3>¿Que Opinan Nuestros Clientes?</h3>
+        <div class="testimonial-container">
+           <div class="testimonio-carrusel">
+                <div class="testimonio-item">
+                    <div class="circle-mask">
+                        <img src="img/testimonio 1.jpg" alt="">
+                    </div>
+                    <h3>Andrea Reyes</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quod ratione, sit itaque omnis doloribus ipsa odio est dolores dignissimos, explicabo vel molestias laborum fuga in quasi laboriosam deserunt modi?</p>
+                    <ul class="calification">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </ul>
+                </div>
+                <div class="testimonio-item">
+                    <div class="circle-mask">
+                        <img src="img/testimonio 2.jpg" alt="">
+                    </div>
+                    <h3>Julian Franco</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quod ratione, sit itaque omnis doloribus ipsa odio est dolores dignissimos, explicabo vel molestias laborum fuga in quasi laboriosam deserunt modi?</p>
+                    <ul class="calification">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </ul>
+                </div>
+                <div class="testimonio-item">
+                    <div class="circle-mask">
+                        <img src="img/testimonio 3.jpg" alt="">
+                    </div>
+                    <h3>Patricia Hernandez</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quod ratione, sit itaque omnis doloribus ipsa odio est dolores dignissimos, explicabo vel molestias laborum fuga in quasi laboriosam deserunt modi?</p>
+                    <ul class="calification">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </ul>
+                </div>
+                <div class="testimonio-item">
+                    <div class="circle-mask">
+                        <img src="img/testimonio 4.jpg" alt="">
+                    </div>
+                    <h3>Vanessa Acevedo</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quod ratione, sit itaque omnis doloribus ipsa odio est dolores dignissimos, explicabo vel molestias laborum fuga in quasi laboriosam deserunt modi?</p>
+                    <ul class="calification">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </ul>
+                </div>
+                <div class="testimonio-item">
+                    <div class="circle-mask">
+                        <img src="img/testimonio 5.jpg" alt="">
+                    </div>
+                    <h3>Juan Pablo Martinez</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quod ratione, sit itaque omnis doloribus ipsa odio est dolores dignissimos, explicabo vel molestias laborum fuga in quasi laboriosam deserunt modi?</p>
+                    <ul class="calification">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </ul>
+                </div>
+           </div>
+
+           <div class="indicators" id="corouselIndicators">
+                <button class="active" data-slide="0"></button>
+                <button data-slide="1"></button>
+                <button data-slide="2"></button>
+           </div>
+        </div>
+     </div>
+    <!-- contacto--> 
+     <div class="container-fluid container-contact" id="contact-form">
+        <div class="row container-form">
+            <div class="col-12 col-md-5 col-lg-6 container-info">
+                <h2> Contáctanos y lleva tu proyecto al siguiente nivel</h2>
+                <p>¿Tienes preguntas sobre nuestros servicios o necesitas una solución personalizada? 
+                    Nuestro equipo de expertos está listo para escucharte. Completa el formulario y 
+                    nos pondremos en contacto contigo lo antes posible. ¡No dejes pasar la oportunidad 
+                    de trabajar con nosotros y hacer crecer tu negocio!"</p>
+                <div class="call">
+                    <i class="fa-solid fa-phone-volume"></i>
+                    <div class="info-call">
+                        <span>320 489 30 16</span>
+                        <p>Mas informacion</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-12 col-md-7 col-lg-6 contact">
+                <h2>Contacto</h2>
+                <form id="formulario" class="formulario" >
+                    <div class="complete-name">
+                        <label for="input-nombre"></label>
+                        <input type="text" id="input-nombre" class="input-estilo" placeholder="Nombre">
+                        <label for="input-apellido"></label>
+                        <input type="text" id="input-apellido" class="input-estilo" placeholder="Apellido">
+                    </div>
+                    <label for="input-correo"></label>
+                    <input type="email" id="input-correo" class="input-estilo" placeholder="Correo electronico">
+                    <label for="input-asunto"></label>
+                    <input type="text" id="input-asunto" class="input-estilo" placeholder="Asunto">
+                    <label for="input-area"></label>
+                    <textarea name="" id="input-area" class="input-estilo" placeholder="Escribe tu mensaje aqui"></textarea>
+                    <button type="submit" class="boton-estilo">Enviar</button>
+                </form>
+                <div id="alert-container"></div>
+            </div>
+        </div>
+     </div>
+   <footer>
+    <div class="container-footer ">
+        <div class="footer-logo">
+            <img src="img/treea-logo.png" style="height: 80px; width: 90px;" alt="">
+            <div class="redes-sociales">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>             
+            </div>
+        </div>
+        <div class="footer-info">
+            <h4>Contáctenos</h4>
+            <p><strong>Teléfono: </strong>321 548 2516</p>
+            <p><strong>Correo: </strong>contacto@treea.com</p>
+            <p><strong>Dirección: </strong>calle 116 #74-69</p>
+        </div>
+        <div class="about-us">
+            <a href="#seccion-servicio">Nuestros Servicios</a>
+            <ul class="footer-services">
+                <ol>Diseño Pisinas</ol>
+                <ol>Construccion Pisinas</ol>
+                <ol>Remodelación Piscinas</ol>
+                <ol>Mantenimiento</ol>
+            </ul>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+   </footer>
+    
+</body>
+</html>
