@@ -45,6 +45,7 @@
 }
 /*carrusel*/
 .item img{
+  width: 100%;
   object-fit: cover;
   object-position: center bottom;
   max-height: 550px;
